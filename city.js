@@ -1,0 +1,25 @@
+module.exports = {
+  cityPrefixes: [
+    'bj',
+    'cd',
+    'cq',
+    'cs',
+    'dg',
+    'dl',
+    'fs',
+    'gz',
+    'hz',
+    'hf',
+    'jn',
+    'nj',
+    'qd',
+    'sh',
+    'sz',
+    'su',
+    'sy',
+    'tj',
+    'wh',
+    'xm',
+    'yt',
+  ]
+}
