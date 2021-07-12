@@ -12,7 +12,11 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
+    "blob": "^0.1.0",
     "cheerio": "^1.0.0-rc.10",
+    "file-type": "^16.5.1",
+    "formdata-node": "^3.5.4",
+    "minio": "^7.0.18",
     "node-fetch": "^2.6.1"
   }
 }
