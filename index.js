@@ -32,10 +32,16 @@ async function main() {
     const curDOM = cheerio.load(htmlText.data)
     const title = (curDOM('div .content').children('p').html())
     const photos = []
+    // if (i === 0) console.log(htmlText.data)
     curDOM('div .content__article__slide__item').children('img').each(function (idx, e) {
-      photos.push(curDOM(e).attr('src'))
+      photos.push(curDOM(e).data('src'))
     })
-    console.log(photos)
+    const features = []
+    curDOM('div .content__aside').find('p').children('i').each(function (idx, e) {
+      features.push(curDOM(e).text())
+    })
+    const price = parseInt(curDOM('div .content__aside--title').children('span').text())
+    console.log(title, features, price)
   })
 }
 
