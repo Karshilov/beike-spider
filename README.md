@@ -1,18 +1,20 @@
 # beike-spider
 暑期学校用 - 贝壳网爬虫
 
+使用cheerio进行html解析
+
 ## Progress
 
 + [x] title
 + [x] photos
-+ [ ] area
++ [x] area
 + [ ] floor
-+ [ ] total_floor
++ [x] total_floor
 + [x] features
 + [x] price
-+ [ ] house_type   
-+ [ ] decoration
-+ [ ] neighbourhood
++ [x] house_type   
++ [x] decoration
++ [x] neighbourhood
 + [x] city
 + [x] rent_type   
-+ [ ] equipments
++ [x] equipments
